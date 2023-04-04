@@ -89,7 +89,42 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: absolute;
+    width: 354px;
+    height: 71px;
+    left: 750px;
+    top: 200px;
    
+}
+.click-1{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    position: absolute;
+    width: 354px;
+    height: 71px;
+    left: 30px;
+    top: 170px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+.click-2{
+    display: flex;
+    align-items: center;
+    text-align: right;
+        position: absolute;
+    width: 354px;
+    height: 71px;
+    left: 700px;
+    top: 170px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
 }
 h3{
     
@@ -97,13 +132,59 @@ h3{
     
 }
 .for-women{
+    
     padding-left: 210px;
-    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    position: absolute;
+    width: 433px;
+    height: 71px;
+    left: 660px;
+    top: 200px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 71px;
+    color: #FFFFFF;
 }
 .line{
    padding-left: 293px;
 }
 .for-men{
+    position: absolute;
+    width: 433px;
+    height: 71px;
+    left: 0px;
+    top: 200px;
     padding-left: 210px;
-    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 71px;
+    color: white;
+}
+.line-1{
+    position: absolute;
+    width: 120px;
+    height: 0.5px;
+    left: 330px;
+    top: 335px;
+    border: 1px solid #FFFFFF;
+
+}
+.line-2{
+    position: absolute;
+    width: 120px;
+    height: 0.5px;
+    left: 1000px;
+    top: 335px;
+
+border: 1px solid #FFFFFF;
 }
