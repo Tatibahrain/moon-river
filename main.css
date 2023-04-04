@@ -1,0 +1,63 @@
+.social-media{
+    height: 886px;
+    width: 1440px;
+    left: 0px;
+    top: 3115px;
+    border-radius: 0px;
+    background: #272727;
+}
+
+.header-social-media{
+    width: 518px;
+    height: 106px;
+    left: 162px;
+    top: 3215px;
+    padding: 5px 760px 150px 162px;
+}
+h1{
+    font-family: 'Forum', cursive ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    padding: 80px 1243px 100px 162px;
+
+}
+.facebook{
+    padding-right: 20px;
+}
+.arrows{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: -130px;
+    padding-bottom: 114px;
+}
+.left-arrows{
+    margin-left: 705px;
+    padding-right: 50px;
+
+}
+.right-arrows{
+    margin-right: 162px;
+    padding-left: 50px;
+    
+}
+
+
