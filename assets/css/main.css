@@ -27,6 +27,8 @@ h1{
 
 
 }
+
+
 .slider{
     display: flex;
     flex-direction: row;
@@ -67,6 +69,7 @@ h1{
     width: 1440px;
     height: 587px;
     margin-bottom: 20px;
+
 }
 .men-jewerly{
     position: relative;
