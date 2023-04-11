@@ -77,7 +77,7 @@ input{
 }
 .line{
     position: relative;
-    left: 520px;
+    left: 220px;
     right: 162px;
     bottom: 60px;
     width: 28px;
@@ -217,4 +217,151 @@ input::-moz-placeholder {
     font-size: 18px;
     line-height: 23px;
     color: #272727;
+}
+ .bur{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50%;
+    width: 50%;
+} 
+.qwe-2{
+    background-color: #272727;
+    height: 1024px;
+    width: 1420px;
+    margin-left: 20px;
+}
+.logos{
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+.knopki{
+    position: relative;
+    top: 10px;
+    left: 1100px;
+}
+.button{
+    padding: 20px;
+}
+  /* Стиль кнопки */
+.dropbtn{
+  background-color: #2F2F2F;
+  color: white;
+  padding: 50px;
+  font-size: 16px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: #2F2F2F;
+  cursor: pointer;
+  font-family: 'Futura PT', sans-serif;
+}
+/* Стиль контейнера */
+.dropdown {
+  height: 1000px;
+  position: relative;
+  display: inline-block;
+}
+/* Стиль списка */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+/* Скрытие списка при наведении на элементы */
+.dropdown:hover .dropdown-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/* Стиль ссылок в списке */
+.dropdown-content a {
+  color: #FFFFFF;
+  font-family: 'Futura PT', sans-serif;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  z-index: 99;
+}
+/* Стиль ссылок в списке при наведении */
+.dropdown-content a:hover {
+  color: rgb(144, 181, 168);
+  transition: 0.7s; 
+}
+.menu_20{
+  /* font-size: 0; */
+  background-color: #2F2F2F;
+  height: 119px;
+  width: 1420px;
+  top: 80px;
+}
+.dropdown-content{
+  top: 200px;
+}
+.imggg{
+  position: relative;
+  top: 450px;
+  left: 90px;
+}
+.imggg-1{
+  position: relative;
+  left: -450px;
+  top: 330px;
+}
+/* .q-21{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+} */
+.telephone{
+  position: relative;
+width: 184px;
+height: 18px;
+left: 930px;
+top: 200px;
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+}
+.telephone-2{
+  position: relative;
+width: 184px;
+height: 18px;
+left: 930px;
+top: 200px;
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #C2C2C2;;
+}
+.telephone-3{
+  position: relative;
+  width: 184px;
+  height: 18px;
+  left: 930px;
+  top: 200px;
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  padding-top: 70px;
+}
+.adress_2{
+  position: relative;
+  top: 180px;
+  left: 780px;
+}
+.imggg_123{
+  position: relative;
+  top: 400px;
+  left: 150px;
 }
