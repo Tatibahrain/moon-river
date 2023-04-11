@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url(AnyConv.com__FuturaPT-Light.woff2),
+    url(FuturaPT-Light.woff);
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forum';
+    src: url(Forum.woff2),
+    url(Forum.woff);
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Segoe UI';
+    src: url(../css/images/Segoe\ UI.ttf);
+    font-style: normal;
+    font-display: swap;
+}
 .moon-river{
     padding: 60px 460px 340px 160px;
 }
@@ -10,10 +31,10 @@
     align-items: center;
 }
 .text{
-    font-family: Segoe UI;
-    font-size: 18px;
+    font-family: 'Segoe UI';
     font-style: italic;
     font-weight: 300;
+    font-size: 18px;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -32,7 +53,7 @@
 }
 
 .sidebar{
-    height: px;
+ 
 width: 562px;
 left: 878px;
 top: 0px;
@@ -71,29 +92,29 @@ background-color: #272727;
 .ring{
     position: absolute;
     height: 170px;
-width: 322px;
-left: 731px;
-top: 427px;
-border-radius: 0px;
+    width: 322px;
+    left: 731px;
+    top: 427px;
+    border-radius: 0px;
 
 }
 .home-page{
-    width: 1440px;
+    width: 1420px;
     height: 1024px;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
 }
 .main{
     width: 878px;
 }
 li{
-list-style-type: none;
-}
+    list-style-type: none;
+    }
 
 .social-media{
     height: 886px;
-    width: 1440px;
+    width: 1420px;
     left: 0px;
     top: 3115px;
     border-radius: 0px;
@@ -154,7 +175,7 @@ h1{
 .ring-title{
     padding-top: 775px;
     padding-bottom: 9px;
-    font-family: Futura PT;
+    font-family: 'Futura PT';
     font-size: 16px;
     font-weight: 198px;
     line-height: 21px;
@@ -163,7 +184,7 @@ h1{
     color: #FFFFFF;
 }
 .metal{
-    font-family: Futura PT;
+    font-family: 'Futura PT';
     font-size: 18px;
     font-weight: 300;
     line-height: 23px;
@@ -175,7 +196,7 @@ h1{
 }
 .price{
     padding: 9px 162px 60px 280px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
     font-size: 18px;
     font-style: italic;
     font-weight: 300;
@@ -201,25 +222,29 @@ h1{
     flex-direction: row;
     justify-content: space-around;
     position: relative;
-    width: 1440px;
+    width: 1420px;
     height: 587px;
     margin-bottom: 20px;
 
 }
-.men-jewerly{
-    position: relative;
-    padding-right: 30px;
-    width: 705px;
+.men-section{
+    background-image: url(../css/images/1-.jpg);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 587px;
-    opacity: 100%;
-    margin-left: 17px;
+    width: 710px;
+    margin-right: 20px;
+ 
+
 }
-.women-jewerly{
-    position: relative;
-    padding-right: 20px;
-    width: 705px;
+.women-section{
+    background-image: url(../css/images/louis-vuitton-Q95641_PM1_Worn\ view.jpg);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 587px;
-    opacity: 95%;
+    width: 710px;
 }
 .header-women .header-men{
     
@@ -243,6 +268,7 @@ h1{
     height: 71px;
     left: 30px;
     top: 170px;
+    font-family: 'Futura PT';
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
@@ -258,6 +284,7 @@ h1{
     height: 71px;
     left: 700px;
     top: 170px;
+    font-family: 'Futura PT';
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
