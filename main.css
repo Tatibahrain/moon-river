@@ -550,7 +550,8 @@ input::-moz-placeholder {
     line-height: 23px;
     color: #272727;
 }
- .bur{
+
+.bur{
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 50%;
