@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url(../css/images/Segoe\ UI.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
 .moon-river{
     padding: 60px 460px 340px 160px;
 }
@@ -78,7 +85,7 @@ border-radius: 0px;
 
 }
 .home-page{
-    width: 1440px;
+    width: 1420px;
     height: 1024px;
   display: flex;
   flex-direction: row;
@@ -93,7 +100,7 @@ list-style-type: none;
 
 .social-media{
     height: 886px;
-    width: 1440px;
+    width: 1420px;
     left: 0px;
     top: 3115px;
     border-radius: 0px;
