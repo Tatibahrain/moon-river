@@ -84,13 +84,6 @@ top: 427px;
 border-radius: 0px;
 
 }
-.home-page{
-    width: 1420px;
-    height: 1024px;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
-}
 .main{
     width: 878px;
 }
@@ -519,13 +512,11 @@ input::-moz-placeholder {
 .girl{
     width: 710px;
     height: 604px;
-    margin-top: 20px;
 }
 .girl_2{
     background-color:  #E5E5E5;
     width: 710px;
     height: 604px;
-    margin-top: 20px;
 }
 .phone{
     padding-top: 120px;
